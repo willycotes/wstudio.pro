@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8821c7d98fea46dd05254eb310a50153",
+    "content-hash": "3d8442ef07697061d62ba76fa04d048e",
     "packages": [
         {
             "name": "composer/installers",
@@ -1129,22 +1129,40 @@
             "homepage": "https://wordpress.org/plugins/woocommerce/"
         },
         {
-            "name": "wpackagist-theme/twentytwentythree",
-            "version": "1.5",
+            "name": "wpackagist-plugin/wordpress-importer",
+            "version": "0.8.3",
             "source": {
                 "type": "svn",
-                "url": "https://themes.svn.wordpress.org/twentytwentythree/",
-                "reference": "1.5"
+                "url": "https://plugins.svn.wordpress.org/wordpress-importer/",
+                "reference": "tags/0.8.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/twentytwentythree.1.5.zip"
+                "url": "https://downloads.wordpress.org/plugin/wordpress-importer.0.8.3.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wordpress-importer/"
+        },
+        {
+            "name": "wpackagist-theme/twentytwentyfour",
+            "version": "1.2",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/twentytwentyfour/",
+                "reference": "1.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/twentytwentyfour.1.2.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
             },
             "type": "wordpress-theme",
-            "homepage": "https://wordpress.org/themes/twentytwentythree/"
+            "homepage": "https://wordpress.org/themes/twentytwentyfour/"
         }
     ],
     "packages-dev": [
@@ -2051,6 +2069,42 @@
                 }
             ],
             "time": "2024-07-21T23:26:44+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/create-block-theme",
+            "version": "2.6.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/create-block-theme/",
+                "reference": "tags/2.6.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/create-block-theme.2.6.0.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/create-block-theme/"
+        },
+        {
+            "name": "wpackagist-plugin/query-monitor",
+            "version": "3.16.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/query-monitor/",
+                "reference": "tags/3.16.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/query-monitor.3.16.4.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/query-monitor/"
         }
     ],
     "aliases": [],

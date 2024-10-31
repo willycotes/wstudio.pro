@@ -1,0 +1,1 @@
+/home/willycotes/www/websites/local.wstudio.pro/web/app/plugins/query-monitor/wp-content/db.php
